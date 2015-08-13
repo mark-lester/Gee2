@@ -7,7 +7,6 @@
 <%@ page import="com.amazonaws.services.s3.model.*" %>
 <%@ page import="com.amazonaws.services.dynamodbv2.*" %>
 <%@ page import="com.amazonaws.services.dynamodbv2.model.*" %>
-
 <%! // Share the client objects across threads to
     // avoid creating new clients for each web request
     private AmazonEC2         ec2;
